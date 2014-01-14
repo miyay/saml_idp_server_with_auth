@@ -10,7 +10,9 @@ gem 'sqlite3'
 gem 'thin'
 gem 'ruby-saml-idp'
 gem 'ruby-saml'
+gem 'haml-rails'
 gem 'devise'
+gem 'rails_admin'
 
 # Gems used only for assets and not required
 # in production environments by default.
