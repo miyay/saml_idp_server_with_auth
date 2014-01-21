@@ -3,6 +3,9 @@ SamlIdpServer::Application.routes.draw do
 
   devise_for :users
 
+  get '/saml/auth' => 'saml_idp#new'
+  post '/saml/auth' => 'saml_idp#create'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
